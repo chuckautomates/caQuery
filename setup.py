@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='queries',
+    name='query',
     py_modules=['gstatic'],
     install_requires=['requests', 'boto3']
 )
