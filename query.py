@@ -6,6 +6,7 @@ import sys
 def gstaticIpRanges():
     url = 'https://www.gstatic.com/ipranges/goog.json'
     response = requests.request("GET", url)
+    return(boop)
     # Blank list
     ipV4List = []
     # Loop through all returned entries
