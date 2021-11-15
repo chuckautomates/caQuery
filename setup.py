@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='query',
-    py_modules=['gstatic'],
+    name='caQuery',
+    py_modules=['caQuery'],
     install_requires=['requests', 'boto3']
 )
